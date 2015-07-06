@@ -1,6 +1,6 @@
 FROM  mutterio/mini-base
 
-ENV REDIS_VERSION 2.8.19-r0
+ENV REDIS_VERSION 3.0.2-r0
 
 RUN apk-install redis=$REDIS_VERSION
 
